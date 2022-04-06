@@ -4,3 +4,8 @@
 
 Web3 Onboard Example using React + Vite + TS
 
+```
+npm install
+
+npm run dev
+```
