@@ -8,7 +8,7 @@ import portisModule from '@web3-onboard/portis'
 import torusModule from '@web3-onboard/torus'
 import trezorModule from '@web3-onboard/trezor'
 import walletConnectModule from '@web3-onboard/walletconnect'
-import walletLinkModule from '@web3-onboard/walletlink'
+import coinbaseModule from '@web3-onboard/coinbase'
 import magicModule from '@web3-onboard/magic'
 import { init } from '@web3-onboard/react'
 
@@ -26,7 +26,7 @@ const injected = injectedModule({
   }
 })
 
-const walletLink = walletLinkModule()
+const walletLink = coinbaseModule()
 
 const walletConnect = walletConnectModule()
 const portis = portisModule({
