@@ -4,7 +4,7 @@ import type { ConnectedChain } from '@web3-onboard/core'
 interface Props {
   className?: string
   chains: Chain[]
-  setChain: (chainId: string) => Promise<void>
+  setChain: (chainId: string) => void
   connectedChain: ConnectedChain | null
 }
 
